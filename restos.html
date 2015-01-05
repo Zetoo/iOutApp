@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="_styles/style_resto.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="modern-slide-in/css/sequencejs-theme.modern-slide-in.css" />
+    	<title>soirée</title>
+    </head>
+    
+    <body>
+    	<div class="container">
+        	<section class="head">
+            	<div id="navOpen" class="mNav">	
+                		<h1>Filtre détaillé</h1>
+                        <form>
+                          Prix
+                          <input type="range" min="0" max="200" onchange="rangevalue.value=value"/><output id="rangevalue">50</output><h6>Distance</h6>
+                          <input type="range" min="0" max="200" onchange="rangevalue.value=value"/><output id="rangevalue">50</output><h6>Nbr de participants</h6>
+                          <input type="range" min="0" max="200" onchange="rangevalue.value=value"/><output id="rangevalue">50</output>
+                        </form>               
+               		</div>
+                	<div class="content">
+                   		 <div class="mHeader">
+                            <a href="#navOpen" class="open">+</a>
+                            <a href="#" class="close">x</a>
+                            <h1>Soirées</h1>
+                    	</div>
+              		</div>                         
+            </section> 
+                                            
+            <section class="swap">
+            <div class="tri">
+            		<div class="menu">
+                    	<div class="moinscher">Le moins cher</div>
+                        <div class="pluspres">Le plus près</div>
+                        <div class="pluspop">Le plus populaire</div>
+                    </div>
+            </div>  
+                       	
+            	  <div id="slideshow-wrap">
+                <input type="radio" id="button-1" name="controls" checked="checked"/>
+                <label for="button-1"></label>
+                <input type="radio" id="button-2" name="controls"/>
+                <label for="button-2"></label>
+                <input type="radio" id="button-3" name="controls"/>
+                <label for="button-3"></label>
+                <input type="radio" id="button-4" name="controls"/>
+                <label for="button-4"></label>
+                <input type="radio" id="button-5" name="controls"/>
+                <label for="button-5"></label>
+                <label for="button-1" class="arrows" id="arrow-1">></label>
+                <label for="button-2" class="arrows" id="arrow-2">></label>
+                <label for="button-3" class="arrows" id="arrow-3">></label>
+                <label for="button-4" class="arrows" id="arrow-4">></label>
+                <label for="button-5" class="arrows" id="arrow-5">></label>
+                <div id="slideshow-inner">
+                    <ul>
+                        <li id="slide1">
+                            <div class="image">
+                				<div class="infos">
+                    				<div class="titre">
+                                        <h1>Restaurent le Rif</h1>
+                                        <h3>Plats orientals</h3>
+                       			 	</div>
+                                <div class="détails">
+                                    <div class="prix">10 euros</div>
+                                    <div class="km">20 km</div>
+                                    <div class="nbPart">180 personnes</div>
+                                </div>
+                    		</div>
+                </div> 
+                        </li>
+                        <li id="slide2">
+                            <div class="image">
+                				<div class="infos">
+                    				<div class="titre">
+                                        <h1>Restaurent le Rif</h1>
+                                        <h3>Plats orientals</h3>
+                       			 	</div>
+                                <div class="détails">
+                                    <div class="prix">10 euros</div>
+                                    <div class="km">20 km</div>
+                                    <div class="nbPart">180 personnes</div>
+                                </div>
+                    		</div>
+                        </li>
+                        <li id="slide3">
+                            <div class="image">
+                				<div class="infos">
+                    				<div class="titre">
+                                        <h1>Restaurent le Rif</h1>
+                                        <h3>Plats orientals</h3>
+                       			 	</div>
+                                <div class="détails">
+                                    <div class="prix">10 euros</div>
+                                    <div class="km">20 km</div>
+                                    <div class="nbPart">180 personnes</div>
+                                </div>
+                    		</div>
+                        </li>
+                        <li id="slide4">
+                            <div class="image">
+                				<div class="infos">
+                    				<div class="titre">
+                                        <h1>Restaurent le Rif</h1>
+                                        <h3>Plats orientals</h3>
+                       			 	</div>
+                                <div class="détails">
+                                    <div class="prix">10 euros</div>
+                                    <div class="km">20 km</div>
+                                    <div class="nbPart">180 personnes</div>
+                                </div>
+                    		</div>
+                        </li>
+                        <li id="slide5">
+                            <div class="image">
+                				<div class="infos">
+                    				<div class="titre">
+                                        <h1>Restaurent le Rif</h1>
+                                        <h3>Plats orientals</h3>
+                       			 	</div>
+                                <div class="détails">
+                                    <div class="prix">10 euros</div>
+                                    <div class="km">20 km</div>
+                                    <div class="nbPart">180 personnes</div>
+                                </div>
+                    		</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                                           
+            </section>
+            
+            <section class="tools">
+            	<div class="plus"></div>
+                <div class="horaire"></div>
+                <div class="position"></div>
+                <div class="date"></div>
+            </section>
+            
+            <section class="buttons">
+            	<div class="go"></div>
+                <div class="compare"></div>
+            </section>
+            
+            <section class="buttons2">
+            	<div class="favoris"></div>
+            </section>
+            
+            <section class="footer">
+            	<div class="back"></div>
+                <div class="oneclick">
+                	<a class="option"><span></span></a>
+                </div>
+            </section>
+             
+             
+       		 </div>
+             
+    	<script src="_javascript/javasResto.js"></script>        
+	</body>
+</html>

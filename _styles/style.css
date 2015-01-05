@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin:0 auto;
+}
+
+.container {
+  margin:0 auto;
+  height:960px;
+  width:640px;
+  position:relative;
+  background-color:#886797;
+}
+
+.centre {
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	top:410px;
+}
+
+.boussoule {
+	background-image:url(../_images/boussoule.PNG);
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	top:30px;
+	left:9px;	
+}
+
+.rond {
+  width: 80px;
+  height: 80px;
+  border:5px solid #4caf50;
+  border-radius:100%;
+  position: relative;
+  margin:0 auto;
+}
+
+.iResto {
+	text-align:center;
+	color:#FFF;
+	font-family:"Poiret One";
+	font-size:50px;
+}
+
+.chargement1, .chargement2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #FFF;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 2.0s infinite ease-in-out;
+}
+
+.chargement2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+@-webkit-keyframes bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+
